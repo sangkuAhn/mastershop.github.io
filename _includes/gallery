@@ -44,10 +44,9 @@
           "{{ img.image_path | relative_url }}"
         {% endif %}
         alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-    {% endif %}
-    <figcaption>{{img.title}}/5.0</figcaption>   
+    {% endif %}    
   {% endfor %}
   {% if include.caption %}
-    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}{{img.title}}/5.0</figcaption>
   {% endif %}
 </figure>
