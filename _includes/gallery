@@ -45,10 +45,7 @@
         {% endif %}
         alt="{% if img.alt %}{{ img.alt }}{% endif %}">
     {% endif %}
-    <br/>
-    <span>{{img.title}}</span>
-    <br/>
-    <span>5,100원</span>
+    <figcaption>{{img.title}}/5.0</figcaption>   
   {% endfor %}
   {% if include.caption %}
     <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
