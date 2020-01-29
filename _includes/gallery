@@ -47,6 +47,6 @@
     {% endif %}    
   {% endfor %}
   {% if include.caption %}
-    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}{{img.title}}/5.0</figcaption>
+    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}{{img.title}}/5.1</figcaption>
   {% endif %}
 </figure>
