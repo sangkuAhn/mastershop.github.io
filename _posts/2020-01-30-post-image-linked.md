@@ -1,7 +1,7 @@
 ---
 title: "Post: Image (with Link)"
 categories:
-  - 쇼핑
+  - 1001
 tags:
   - image
   - Post Formats
