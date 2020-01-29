@@ -48,7 +48,7 @@
   
  <figcaption>
   <p>{{img.title}}</p>
-  <p>가격:5.4</p>
+  <p>가격:{{img.money}}</p>
   <p><a href="{{img.url}}">[후기 보러가기]</a></p>
   </figcaption>
   {% endfor %}
