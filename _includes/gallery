@@ -47,13 +47,14 @@
     {% endif %}    
   {% endfor %}
   <figcaption>
-  {{img.title}}
+  {{img.title}}/가격:5.2
+  <br>
+  <a href="{{img.url}}">[후기 보러가기]</a></p>
   </figcaption>
   
 
   {% if include.caption %}
     <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
   {% endif %}
-  <p>가격:5.1</p>
-  <p> <a href="{{img.url}}">[후기 보러가기]</a></p>
+
 </figure>
