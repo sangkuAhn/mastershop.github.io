@@ -46,9 +46,11 @@
         alt="{% if img.alt %}{{ img.alt }}{% endif %}">
     {% endif %}    
   
+ <figcaption>
   <p>{{img.title}}</p>
-  <p>가격:5.3</p>
+  <p>가격:5.4</p>
   <p><a href="{{img.url}}">[후기 보러가기]</a></p>
+  </figcaption>
   {% endfor %}
 
   {% if include.caption %}
