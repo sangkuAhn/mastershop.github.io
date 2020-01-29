@@ -20,5 +20,5 @@ tags:
 
 > 탐구하여 찾아질 수 없을 정도로 어려운 문제는 존재하지 않는다. - 티랜티우스
 
-파트너스활동으로 작성자에게 일정액의 커미션이 제공될수 있습니다.
+<span style="color: #898c8f; font-family: Georgia,Times,serif; font-size: 0.55em;">파트너스활동으로 작성자에게 일정액의 커미션이 제공될수 있습니다.</span>
 
