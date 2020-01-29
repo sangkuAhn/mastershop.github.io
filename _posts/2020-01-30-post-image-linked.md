@@ -1,13 +1,13 @@
 ---
 title: "Post: Image (with Link)"
 categories:
-  - 1001
+  - Post Formats
 tags:
   - image
   - Post Formats
 ---
-[![foo](https://live.staticflickr.com/8361/8400335147_5fabaa504c_o.jpg)](https://flic.kr/p/dNiUYB)
 
+[![foo](https://live.staticflickr.com/8361/8400335147_5fabaa504c_o.jpg)](https://flic.kr/p/dNiUYB)
 ## 상하치즈 유기농 아기치즈 영양균형 2단계 10매입, 1개
 <p style="text-align: center;">**가격: 5,000원**</p>
 <p style="text-align: center;"><span style="color: #898c8f; font-family: Georgia,Times,serif; font-size: 0.75em;">2019년 1월 20일에 작성되어, <br>가격변동 및 추가할인이 있을 수 있으니,<br> 상품 가격을 꼭!확인해주세요.<br>행복하세요~</span>
