@@ -48,7 +48,7 @@
   
  <figcaption>
   <p>{{img.title}}<br/>가격 : {{img.money}}<br/><span style="color: #898c8f; font-family: Georgia,Times,serif; font-size: 0.5em;">가격변동 및 추가할인이 있을 수 있으니, 상품 가격을 꼭!확인해주세요.</span></p>  
-  <p><a href="{{img.url}}" style="color: #898c8f; font-family: Georgia,Times,serif; font-size: 1em;">[상품 및 후기 보러가기]</a></p>
+  <p><a href="{{img.url}}" style="color: #898c8f; font-family: Georgia,Times,serif; font-size: 1em;">[상품가격 및 후기 보러가기]</a></p>
   <hr>
   </figcaption>
   {% endfor %}
