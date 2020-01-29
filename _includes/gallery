@@ -46,7 +46,14 @@
         alt="{% if img.alt %}{{ img.alt }}{% endif %}">
     {% endif %}    
   {% endfor %}
+  <figcaption>
+  {{img.title}}
+  </figcaption>
+  
+
   {% if include.caption %}
-    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}{{img.title}}/5.1</figcaption>
+    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
   {% endif %}
+  <p>가격:5.1</p>
+  <p>[후기 보러가기]</p>
 </figure>
