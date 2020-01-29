@@ -48,7 +48,7 @@
     <br/>
     <span>{{img.title}}</span>
     <br/>
-    <span>5,000원</span>
+    <span>5,100원</span>
   {% endfor %}
   {% if include.caption %}
     <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
