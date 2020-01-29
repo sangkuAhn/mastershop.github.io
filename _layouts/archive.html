@@ -18,8 +18,7 @@ layout: default
   {% include sidebar.html %}
 
   <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-       <img src="https://static.coupangcdn.com/image/vendor_inventory/images/2018/09/20/14/4/021aa20f-a394-454d-8a38-7759aef6eb89.jpg">
+    {% unless page.header.overlay_color or page.header.overlay_image %}       
       <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
     {{ content }}
