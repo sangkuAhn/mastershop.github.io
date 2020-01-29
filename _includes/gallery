@@ -47,7 +47,7 @@
     {% endif %}    
   
  <figcaption>
-  <p >Top.{{rank}}<br/><span style="color: #FF007F; font-family: Georgia,Times,serif; font-size: 1.5em;">{{img.title}}</span><br/>가격 : {{img.money}}<br/><span style="color: #898c8f; font-family: Georgia,Times,serif; font-size: 0.75em;">가격변동 및 추가할인이 있을 수 있으니, 상품 가격을 꼭!확인해주세요.</span></p>  
+  <p ><span style="color: #FF007F; font-family: Georgia,Times,serif; font-size: 1.5em;">Top.{{rankNo}}</span><br/>{{img.title}}<br/>가격 : {{img.money}}<br/><span style="color: #898c8f; font-family: Georgia,Times,serif; font-size: 0.75em;">가격변동 및 추가할인이 있을 수 있으니, 상품 가격을 꼭!확인해주세요.</span></p>  
   <p><a href="{{img.url}}" style="color: #898c8f; font-family: Georgia,Times,serif; font-size: 1em;">[상품가격 및 후기 보러가기]</a></p>
   <hr>
   </figcaption>
