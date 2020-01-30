@@ -17,18 +17,28 @@
         <figure>
           <img src="{{post.post_img_url}}" >
         </figure>
-      <p><a class="no-uline" href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a></p>
+      <p><a class="no-uline" href="{{ post.link }}">{{ title }}</a>
+        <a href="{{ post.url | relative_url }}" rel="permalink">
+          <i class="fas fa-link" aria-hidden="true" title="permalink">
+          </i>
+          <span class="sr-only">Permalink</span>
+        </a>
+      </p>
       <span class="index_content">price: {{ post.post_money }} </span><br>
       <span class="index_content">date: {{ post.post_date }}</span><br>
-      <!-- <span class="index_content"><a href="#">[상품 가격 및 후기 바로가기]</a></span>-->
+ 
       {% else %}
         <figure >
           <img src="{{post.post_img_url}}" >     
         </figure>
-      <p><a class="no-uline" href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a></p>
+      <p>
+        <a class="no-uline" href="{{ post.url | relative_url }}" rel="permalink">
+          {{ title }}
+        </a>
+      </p>
       <span class="index_content">price: {{ post.post_money }} </span><br>
       <span class="index_content">date: {{ post.post_date }}</span><br>
-      <!--<span class="index_content"><a href="#">[상품 가격 및 후기 바로가기]</a></span>-->
+
       
       {% endif %}
     </h2>
