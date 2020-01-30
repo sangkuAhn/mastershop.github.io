@@ -9,10 +9,10 @@ var store = [
     {%- endif -%}
     {%- assign docs = c.docs | where_exp:'doc','doc.search != false' -%}
     {%- for doc in docs -%}
-      {%- if doc.post_img_url -%}
-        {%- capture post_img_url -%}{{ doc.post_img_url }}{%- endcapture -%}
+      {%- if doc.header.teaser -%}
+        {%- capture teaser -%}{{ doc.post_img_url }}{%- endcapture -%}
       {%- else -%}
-        {%- assign post_img_url = doc.post_img_url -%}
+        {%- assign teaser = site.teaser -%}
       {%- endif -%}
       {
         "title": {{ doc.title | jsonify }},
