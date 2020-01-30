@@ -16,10 +16,10 @@
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
+          {% if post.post_img_url contains "://" %}
+            "{{ post.post_img_url }}"
           {% else %}
-            "{{ teaser | relative_url }}"
+            "{{ post.post_img_url | relative_url }}"
           {% endif %}
           alt="">
       </div>
