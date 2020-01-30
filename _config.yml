@@ -112,7 +112,7 @@ analytics:
 author:
   name             : "MASTER"
   avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**What do you want, jewels?**   I am a very extravagant man. "
+  bio              : "**What do you want, jewels?**<br>I am a very extravagant man. "
   location         : "Somewhere"
   email            :
   links:
