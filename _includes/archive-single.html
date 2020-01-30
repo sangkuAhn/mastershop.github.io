@@ -15,7 +15,7 @@
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}      
         <figure>
-          <img src="{{post.post_img_url}}" >
+          <img src="{{post.post_img_url}}" />
         </figure>
       <p><a class="no-uline" href="{{ post.link }}">{{ title }}</a>
         <a href="{{ post.url | relative_url }}" rel="permalink">
@@ -29,7 +29,7 @@
  
       {% else %}
         <figure >
-          <img src="{{post.post_img_url}}" >     
+          <img src="{{post.post_img_url}}" />     
         </figure>
       <p>
         <a class="no-uline" href="{{ post.url | relative_url }}" rel="permalink">
