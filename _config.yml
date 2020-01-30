@@ -171,8 +171,8 @@ include:
   - .htaccess
   - _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
+ # - "*.sublime-project"
+ # - "*.sublime-workspace"
   - vendor
   - .asset-cache
   - .bundle
@@ -181,22 +181,22 @@ exclude:
   - assets/js/plugins
   - assets/js/_main.js
   - assets/js/vendor
-  - Capfile
-  - CHANGELOG
+ # - Capfile
+ # - CHANGELOG
   - config
   - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
+ # - Gruntfile.js
+ # - gulpfile.js
+#  - LICENSE
+ # - log
+ # - node_modules
+#  - package.json
+#  - package-lock.json
+#  - Rakefile
   - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+ # - tmp
+ # - /docs # ignore Minimal Mistakes /docs
+ # - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
