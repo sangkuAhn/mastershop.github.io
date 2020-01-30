@@ -44,10 +44,10 @@ var store = [
         "tags": {{ doc.tags | jsonify }},
         "url": {{ doc.url | absolute_url | jsonify }},
         "teaser":
-          {%- if doc.post_img_url contains "://" -%}
-            {{ doc.post_img_url | jsonify }}
+          {%- if teaser contains "://" -%}
+            {{ teaser | jsonify }}
           {%- else -%}
-            {{ absolute_url | jsonify }}
+            {{ teaser | absolute_url | jsonify }}
           {%- endif -%}
       }{%- unless forloop.last and l -%},{%- endunless -%}
     {%- endfor -%}
