@@ -115,7 +115,7 @@ nv_analytics:
 
 # Site Author
 author:
-  name             : "MASTER"
+  name             : "ASK"
   avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**What do you want, jewels?**<br>I am a very extravagant man. "
   location         : "Somewhere"
