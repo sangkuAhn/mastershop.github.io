@@ -27,18 +27,18 @@
       <span class="index_content">price: {{ post.post_money }} </span><br>
       <span class="index_content">date: {{ post.post_date }}</span><br>
       {% else %}
-           {% if post.post_money %}   
-            <figure >
-              <img src="{{post.post_img_url}}" />     
-            </figure>
-          <p>
-            <a class="no-uline" href="{{ post.url | relative_url }}" rel="permalink">
-              {{ title }}
-            </a>
-          </p>
-          <span class="index_content">price: {{ post.post_money }} </span><br>
-          <span class="index_content">date: {{ post.post_date }}</span><br>
-          {% endif%}
+
+          <figure >
+            <img src="https://ssl.pstatic.net/tveta/libs/1273/1273361/77b433b407ca55364ff6_20200130152024960.jpg" />     
+          </figure>
+        <p>
+          <a class="no-uline" href="{{ post.url | relative_url }}" rel="permalink">
+            {{ title }}
+          </a>
+        </p>
+        <span class="index_content">price: {{ post.post_money }} </span><br>
+        <span class="index_content">date: {{ post.post_date }}</span><br>
+
       
 
       
