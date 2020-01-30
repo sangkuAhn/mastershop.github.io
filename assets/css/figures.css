@@ -12,3 +12,8 @@ figure {
 img.scaled {
   width: 100%;
 }
+index_content {
+    color: #898c8f;
+    font-family: Georgia,Times,serif;
+    font-size: 0.75em;
+}
