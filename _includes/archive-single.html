@@ -26,7 +26,19 @@
       </p>
       <span class="index_content">price: {{ post.post_money }} </span><br>
       <span class="index_content">date: {{ post.post_date }}</span><br>
- 
+      {% else %}
+           {% if post.post_money %}   
+            <figure >
+              <img src="{{post.post_img_url}}" />     
+            </figure>
+          <p>
+            <a class="no-uline" href="{{ post.url | relative_url }}" rel="permalink">
+              {{ title }}
+            </a>
+          </p>
+          <span class="index_content">price: {{ post.post_money }} </span><br>
+          <span class="index_content">date: {{ post.post_date }}</span><br>
+          {% endif%}
       
 
       
