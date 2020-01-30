@@ -25,12 +25,12 @@
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}      
-        <figure style="float: left; text-align: center;">
+        <figure style="float: left; text-align: center; min-width: 150px;">
           <img src="https://static.coupangcdn.com/image/vendor_inventory/images/2018/09/20/14/4/021aa20f-a394-454d-8a38-7759aef6eb89.jpg" width="100px" height="100px">&nbsp;&nbsp;          
         </figure>
         <p><a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a></p>
       {% else %}
-                <figure style="float: left; text-align: center;">
+        <figure style="float: left; text-align: center; min-width: 150px;">
           <img src="https://static.coupangcdn.com/image/vendor_inventory/images/2018/09/20/14/4/021aa20f-a394-454d-8a38-7759aef6eb89.jpg" width="100px" height="100px">&nbsp;&nbsp;          
         </figure>
         <p>  <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a></p>
