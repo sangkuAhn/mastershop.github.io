@@ -15,7 +15,7 @@
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}      
         <figure>
-          <img src="https://static.coupangcdn.com/image/vendor_inventory/images/2018/09/20/14/4/021aa20f-a394-454d-8a38-7759aef6eb89.jpg" >        
+          <img src="{{post.post_img_url}}" >
         </figure>
       <p><a class="no-uline" href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a></p>
       <span class="index_content">price: {{ post.post_money }} </span><br>
@@ -23,7 +23,7 @@
       <!-- <span class="index_content"><a href="#">[상품 가격 및 후기 바로가기]</a></span>-->
       {% else %}
         <figure >
-          <img src="https://static.coupangcdn.com/image/vendor_inventory/images/2018/09/20/14/4/021aa20f-a394-454d-8a38-7759aef6eb89.jpg" >     
+          <img src="{{post.post_img_url}}" >     
         </figure>
       <p><a class="no-uline" href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a></p>
       <span class="index_content">price: {{ post.post_money }} </span><br>
