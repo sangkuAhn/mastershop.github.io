@@ -11,4 +11,10 @@
   {% include /analytics-providers/custom.html %}
 {% endcase %}
 
+{% case site.nv_analytics.provider %}
+{% when "naver" %}
+  {% include /analytics-providers/naver.html %}
+{% endcase %}
+
+
 {% endif %}
