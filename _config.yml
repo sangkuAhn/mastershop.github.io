@@ -21,7 +21,7 @@ title_separator          : "|"
 subtitle                 : "Have A Nice Day" # site tagline that appears below site title in masthead
 name                     : "ask"
 description              : "Have A Nice Day"
-url                      : "https://mastershop.github.io"
+url                      : "https://www.mastershop.shop"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/500x300.png"
@@ -98,7 +98,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - http://blog.naver.com/sakai111
+    - https://blog.naver.com/sakai111
 
 # Analytics
 analytics:
