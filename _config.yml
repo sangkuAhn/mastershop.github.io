@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
+locale                   : "en-US" #"ko-KR"
 title                    : "MASTER SHOP"
 title_separator          : "|"
 subtitle                 : "sub_title" # site tagline that appears below site title in masthead
