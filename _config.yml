@@ -118,7 +118,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "sakai111@naver.com"
+      url: "mailto:sakai111@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://blog.naver.com/sakai111"
