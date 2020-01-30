@@ -30,15 +30,15 @@
           <img src="https://static.coupangcdn.com/image/vendor_inventory/images/2018/09/20/14/4/021aa20f-a394-454d-8a38-7759aef6eb89.jpg" >        
         </figure>
         <p><a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a></p>
-        <p>가격:{{ post.post_money }} </p>
-        <p>작성일:{{ post.post_date }} </p>
+      <p><span class="index_content">가격:{{ post.post_money }} </span></p>
+      <p><span class="index_content">작성일:{{ post.post_date }}</span> </p>
       {% else %}
         <figure >
           <img src="https://static.coupangcdn.com/image/vendor_inventory/images/2018/09/20/14/4/021aa20f-a394-454d-8a38-7759aef6eb89.jpg" >     
         </figure>
         <p>  <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a></p>
-        <p>가격:{{ post.post_money }} </p>
-        <p>작성일:{{ post.post_date }} </p>
+      <p><span class="index_content">가격:{{ post.post_money }} </span></p>
+      <p><span class="index_content">작성일:{{ post.post_date }}</span> </p>
       {% endif %}
     </h2>
     {% if post.read_time %}
